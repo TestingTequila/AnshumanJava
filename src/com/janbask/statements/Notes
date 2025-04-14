@@ -1,0 +1,22 @@
+Statements: We will use them to make decisions
+
+Statements:
+if Statement
+if(condition)
+{
+ This will execute only if condition is true
+}
+
+nested if statement
+if else Statement-----
+if(condition)
+{
+ This will execute only if condition is true
+}
+else
+{
+  This will execute only if condition is false
+}
+multiple if with else statement
+if else if statement----
+switch statement-----
