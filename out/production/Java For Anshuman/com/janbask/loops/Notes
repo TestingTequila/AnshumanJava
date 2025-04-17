@@ -1,0 +1,14 @@
+1. while loop
+   while(condition)
+   {
+      this will execute only if condition is true
+   }
+2. for loop
+3. Advanced for loop [for each loop]
+   for(dataType aliasName)
+   {
+
+   }
+
+// repetitive tasks
+// group of something and action needs to be performed over them
