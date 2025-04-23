@@ -1,0 +1,4 @@
+accessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+{
+   action over class variables
+}
