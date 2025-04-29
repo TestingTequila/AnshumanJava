@@ -1,0 +1,8 @@
+In a class two or more methods with same name can exist, provided that
+   -data type of parameters is different OR
+   -order of data type of parameters is different OR
+   -count of parameters is different
+
+   Method overloading is also known as compile time polymorphism
+   Method overloading happens within the same class only
+
