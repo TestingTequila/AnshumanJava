@@ -35,4 +35,9 @@ public class SwitchStatement
     }
 }
 //Switch is not applicable over: long, float, double, boolean data types
-//
+
+/* //double d = 1.5
+switch (String.valueOf(d)) {
+       case "1.5": 
+       break;
+} */
