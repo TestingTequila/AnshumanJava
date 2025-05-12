@@ -1,0 +1,5 @@
+Encapsulation:
+     1. private variable [setter]
+     2. private variable + Constructor[constructor is used for assigning value to global private variable]
+     3. private variable + constructor + setter method
+     4. private method within public method
