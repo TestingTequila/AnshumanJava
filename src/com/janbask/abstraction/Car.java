@@ -16,4 +16,19 @@ public class Car
     {
         System.out.println("Car Refuel....");
     }
+
+    public void  m1()
+    {
+        System.out.println("m1 method....");
+    }
+
+    public void  m1(int x)
+    {
+        System.out.println("m1 method....");
+    }
+
+    public static void  m1(int x, int y)
+    {
+        System.out.println("Car static m1 method....");
+    }
 }

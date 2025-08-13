@@ -23,6 +23,7 @@ public class Executing
         car1.start();
         car1.refuel();
         car1.stop();
+        car1.m1(12, 56);
 
         System.out.println("=====================================");
         BMW bmw1= new BMW();
