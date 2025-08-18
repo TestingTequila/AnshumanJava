@@ -1,6 +1,6 @@
 package com.janbask.inheritanceExample;
 
-public class FortisHospital implements USMedicalAssociation, UKMedicalAssociation, IndianMedicalAssociation {
+public class FortisHospital extends  MaxHospital implements USMedicalAssociation, UKMedicalAssociation, IndianMedicalAssociation {
 
     @Override
     public void cardioServices() {
@@ -15,6 +15,11 @@ public class FortisHospital implements USMedicalAssociation, UKMedicalAssociatio
     @Override
     public void physioServices() {
         System.out.println("FH----physioServices");
+    }
+
+    @Override
+    public void emergencyServices() {
+        System.out.println("FH----emergencyServices");
     }
 
     @Override
@@ -52,4 +57,27 @@ public class FortisHospital implements USMedicalAssociation, UKMedicalAssociatio
 
     }
 
+    @Override
+    public void medicalNews()
+    {
+        System.out.println("Fortis Hospital -- medicalNews");
+    }
+
+    @Override
+    public void covidVaccination() {
+        System.out.println("Fortis Hospital -- covidVaccination");
+
+    }
+
+    @Override
+    public void bplServices() {
+        System.out.println("Fortis Hospital -- bplServices");
+
+    }
+
+//    @Override [cannot be overridden as this method in final in parent class
+//    public final void governmentMedicalInsurances()
+//    {
+//        System.out.println("Max Hospital -- governmentMedicalInsurances");
+//    }
 }
