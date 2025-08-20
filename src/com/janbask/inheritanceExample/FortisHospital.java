@@ -75,6 +75,12 @@ public class FortisHospital extends  MaxHospital implements USMedicalAssociation
 
     }
 
+    @Override
+    public void cafeServices()
+    {
+        System.out.println("Fortis override Method....");
+    }
+
 //    @Override [cannot be overridden as this method in final in parent class
 //    public final void governmentMedicalInsurances()
 //    {

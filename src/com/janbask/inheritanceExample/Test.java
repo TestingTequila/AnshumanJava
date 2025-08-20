@@ -21,6 +21,8 @@ public class Test {
         fh.medicalRnD();
         fh.medicalNews();
         fh.inHouseervices();
+        USMedicalAssociation.calculateTax();
+        fh.cafeServices();
 
         System.out.println("====Top Casting- Fortis & USMedicalAssociation=======");
 
@@ -29,6 +31,8 @@ public class Test {
         usma.neuroServices();
         usma.physioServices();
         usma.emergencyServices();
+        USMedicalAssociation.calculateTax();
+        usma.cafeServices();
 
 
         //USMedicalAssociation usm = new USMedicalAssociation(); Cannot create object of an interface
@@ -39,6 +43,7 @@ public class Test {
         ukma.entServices();
         ukma.dentalServices();
         ukma.emergencyServices();
+        UKMedicalAssociation.calculateTax();
 
         System.out.println("====Top Casting- Fortis & IndianMedicalAssociation=======");
 
@@ -47,12 +52,14 @@ public class Test {
         ima.gynicServices();
         ima.orthoServices();
         ima.emergencyServices();
+        IndianMedicalAssociation.calculateTax();
 
         System.out.println("====Top Casting- Fortis & MaxHospital=======");
         MaxHospital maxHospital = new FortisHospital();
         maxHospital.medicalNews();
         maxHospital.medicalRnD();
         maxHospital.inHouseervices();
+
 
         System.out.println("====Top Casting- Fortis & ColumbiaHospital=======");
         ColumbiaHospital ch = new FortisHospital();
